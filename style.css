@@ -10,8 +10,8 @@
 }
 .slider ul {
     display: flex;
-    padding: 300;
-    width: 125%;
+    padding: 500;
+    width: 85%;
     
     animation: cambio 20s infinite;
     animation-direction: alternate;
@@ -28,17 +28,17 @@
 
 }
 @keyframes cambio {
-    0% {margin-left: 0%;}
-    50% {margin-right: 20%;}
+    0% {margin-right: 0%;}
+    50% {margin-left: 20%;}
 
-    25% {margin-left: -10%;}
-    75% {margin-right: -10%;}
+    25% {margin-right: -10%;}
+    75% {margin-left: -10%;}
 
-    25% {margin-left: -75%;}
-    75% {margin-right: -75%;}
+    25% {margin-right: -15%;}
+    75% {margin-left: -15%;}
     
-    25% {margin-left: -30%;}
-    75% {margin-right: -30%;}
+    25% {margin-right: 20%;}
+    75% {margin-left: 30%;}
 
 } 
 
